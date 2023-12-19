@@ -1,0 +1,317 @@
+.main {
+  display: flex;
+}
+
+.left {
+  position: relative;
+  height: 100vh;
+  background-color: blueviolet;
+  width: 45%;
+}
+.right {
+  align-items: center;
+  padding-left: 125px;
+  height: 100vh;
+  background-color: lightslategray;
+  width: 55%;
+  padding: auto auto;
+}
+
+.svg {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  right: -125px;
+  top: 10%;
+  background-color: blueviolet;
+}
+.heading {
+  position: absolute;
+  right: 0;
+  top: 20%;
+  color: white;
+  z-index: 1;
+}
+.image-and-text {
+  bottom: 15%;
+  color: white;
+}
+.page2 .main .left {
+  background-color: rgb(82, 24, 241);
+}
+.page2 .right {
+  background-color: darkblue;
+}
+.page2 .svg {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  right: -125px;
+  top: 10%;
+  background-color: rgb(82, 24, 241);
+}
+
+/* page3 */
+.page3 .main .left {
+  background-color: rgb(13, 13, 72);
+}
+.page3 .svg {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  z-index: 1;
+  border-radius: 50%;
+  right: -125px;
+  top: 10%;
+  background-color: rgb(13, 13, 72);
+}
+.page3 .right {
+  background-color: rgb(24, 24, 74);
+  position: relative;
+}
+
+/* page 4 */
+.page4 .main .left {
+  background-color: #15253a;
+}
+.page4 .svg {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  z-index: 1;
+  border-radius: 50%;
+  right: -125px;
+  top: 10%;
+  background-color: #15253a;
+}
+.page4 .right {
+  background-color: rgb(11, 11, 22);
+  position: relative;
+}
+
+/* page5 */
+.page5 .main .left {
+  background-color: rgb(18, 111, 224);
+}
+.page5 .svg {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  z-index: 1;
+  border-radius: 50%;
+  right: -125px;
+  top: 10%;
+  background-color: rgb(18, 111, 224);
+}
+.page5 .right {
+  background-color: rgb(84, 188, 229);
+  position: relative;
+}
+
+/* page6 */
+.page6 .main .left {
+  background-color: rgb(22, 30, 129);
+}
+.page6 .svg {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  z-index: 1;
+  border-radius: 50%;
+  right: -125px;
+  top: 10%;
+  background-color: rgb(22, 30, 129);
+}
+.page6 .right {
+  padding-left: 0;
+  position: relative;
+}
+
+/* page7 */
+.page7 .main .left {
+  background-color: #008d54;
+}
+.page7 .svg {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  z-index: 1;
+  border-radius: 50%;
+  right: -125px;
+  top: 10%;
+  background-color: #008d54;
+}
+.page7 .right {
+  padding-left: 0;
+  position: relative;
+  background-color: #00b668;
+}
+.s7i1 {
+  position: absolute;
+  bottom: -80px;
+  left: 25%;
+}
+.s7i2 {
+  position: absolute;
+  bottom: -50px;
+  right: 10%;
+}
+
+/* mobile slides */
+
+/* slide1 */
+.up-1 {
+  height: 50%;
+  position: relative;
+  overflow: hidden;
+}
+.slide-1 .up-1 {
+  background-color: whitesmoke;
+}
+.slide-1 .down-1 {
+  background-color: blueviolet;
+}
+.up-1 .img-1 {
+  position: absolute;
+  bottom: -80px;
+  left: -20px;
+}
+.up-1 .img-2 {
+  position: absolute;
+  right: -20px;
+  bottom: -80px;
+}
+.slide-1 .d1-img {
+  position: absolute;
+  top: -17%;
+  filter: brightness(100%);
+}
+/* slide2 */
+.up-2 {
+  padding: 10px;
+  position: relative;
+  height: 60vh;
+  width: 100%;
+  overflow: hidden;
+  background-color: darkblue;
+}
+.up-2 .img-1 {
+  position: absolute;
+  bottom: -30px;
+}
+.up-2 .img-2 {
+  position: absolute;
+  right: 0;
+  top: -50px;
+}
+.down-2 {
+  background: linear-gradient(
+    119deg,
+    #d91ccc 3.19%,
+    rgba(95, 34, 225, 0.96) 100.79%
+  );
+}
+/* slide 3 */
+.down-3 {
+  background-color: rgb(22, 30, 129);
+}
+/* slide 4 */
+.slide-4 .up-1 {
+  background-color: rgb(11, 11, 22);
+}
+.slide-4 .down-1 {
+  background-color: #15253a;
+}
+.slide-4 .up-1 .img-1 {
+  position: absolute;
+  top: -20px;
+  left: 0px;
+}
+.slide-4 .up-1 .img-2 {
+  position: absolute;
+  left: 10%;
+  bottom: -60px;
+}
+.slide-4 .up-1 .img-3 {
+  position: absolute;
+  right: 5%;
+  top: -25px;
+}
+
+/* slide 5 */
+.slide-5 .up-1 {
+  height: 60%;
+  position: relative;
+  overflow: hidden;
+}
+.slide-5 .up-1 {
+  background-color: rgb(84, 188, 229);
+}
+.slide-5 .down-1 {
+  background-color: rgb(18, 111, 224);
+}
+.slide-5 .up-1 .img-1 {
+  position: absolute;
+  top: -120px;
+  left: 0px;
+}
+.slide-5 .up-1 .img-2 {
+  position: absolute;
+  left: 0;
+  bottom: -120px;
+}
+
+.slide-5 .up-1 .img-3 {
+  position: absolute;
+  left: 40%;
+  top: -20px;
+}
+.slide-5 .up-1 .img-4 {
+  position: absolute;
+  left: 40%;
+  bottom: -220px;
+}
+.slide-5 .up-1 .img-5 {
+  position: absolute;
+  right: -25%;
+  bottom: -50px;
+}
+
+/* slide 6 */
+.slide-6 .up-1 {
+  background: url("images/interior.jpg");
+}
+.slide-6 .down-1 {
+  background-color: darkblue;
+}
+.slide-6 .up-1 .img-1 {
+  position: absolute;
+  top: -10%;
+  left: 0;
+}
+
+/* slide 7 */
+.slide-7 .up-1 {
+  background-color: #00b668;
+}
+.slide-7 .down-1 {
+  background-color: #008d54;
+}
+.slide-7 .d1-img {
+  position: absolute;
+  top: -10%;
+  z-index: 5;
+}
+.slide-7 .up-1 .img-1 {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  z-index: 2;
+}
+.slide-7 .up-1 .img-2 {
+  position: absolute;
+  top: 20%;
+  right: 0;
+}
